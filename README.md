@@ -1,6 +1,6 @@
 # Flowrest: Practical Flow-Level Inference in Programmable Switches with Random Forests
 
-This repository contains the public version of the code for our work Flowrest which will appear in the Proceedings of IEEE INFOCOM 2023, 19-20 May 2023, New York, USA.
+This repository contains the public version of the code for our work Flowrest which will appear in the Proceedings of IEEE INFOCOM 2023, 17-20 May 2023, New York Area, USA.
 
 ## Overview of the Flowrest system
 <img src="flowrest.png" alt="Flowrest Overview" style="height: 350px; width:500px;"/>  
@@ -19,9 +19,11 @@ There are two folders:
 
 ## Use cases
 The use cases considered in the paper are: 
-- IoT device identification task based on the publicly available <a href="https://iotanalytics unsw.edu.au/iottraces.html">UNSW-IOT Traces</a>. The challenge is to classify traffic into one of 26 classes. Another task with a subset of 16 classes is also explored.
+- IoT device identification task based on the publicly available <a href="https://iotanalytics unsw.edu.au/iottraces.html">UNSW-IOT Traces</a>. <br>The challenge is to classify traffic into one of 16 or 26 classes. 
 - Protocol classification with 8 protocol classes, based on the <a href="http://netweb.ing.unibs.it/~ntw/tools/traces/">UNIBS 2009 Internet Traces</a>.
-- Intrusion detection system separating malware from benign traffic. It is based on the <a href="https://www.unb.ca/cic/datasets/ids-2017.html">CICIDS 2017 Friday</a> dataset containing DDoS attacks and normal traffic.
+- Intrusion detection system separating malware from benign traffic. <br> It is based on the <a href="https://www.unb.ca/cic/datasets/ids-2017.html">CICIDS 2017 Friday</a> dataset containing DDoS attacks and normal traffic.
+
+We provide the python and P4 code for the UNSW-IoT device identification use case with 16 classes. <br> The same approach for feature/model selection and encoding to P4 applies to all the use cases.
 
 ## Citation
 If you make use of this code, kindly cite our paper:  
