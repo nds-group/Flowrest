@@ -26,14 +26,14 @@ The use cases considered in the paper are:
 - IoT device identification task based on the publicly available <a href="https://iotanalytics.unsw.edu.au/iottraces.html">UNSW-IOT Traces</a>. <br>The challenge is to classify traffic into one of 16 or 26 classes. 
 - Protocol classification with 8 protocol classes, based on the <a href="http://netweb.ing.unibs.it/~ntw/tools/traces/">UNIBS 2009 Internet Traces</a>.
 - Intrusion detection system separating malware from benign traffic. <br> It is based on the <a href="https://www.unb.ca/cic/datasets/ids-2017.html">CICIDS 2017 Friday</a> dataset containing DDoS attacks and normal traffic.
-- Bot classification with 10 attack classes and 4 benign classes. It is based on the <a href="">IoT-23 public traces</a>. The classification task is to distinguish 14 traffic classes
-- IoT attack classification with 10 classes, based on the <a href="">ToN-IoT network data</a>. 
+- Bot classification with 10 attack classes and 4 benign classes. It is based on the <a href="https://www.stratosphereips.org/datasets-iot23">IoT-23 public traces</a>. The classification task is to distinguish 14 traffic classes
+- IoT attack classification with 10 classes, based on the <a href="https://research.unsw.edu.au/projects/toniot-datasets">ToN-IoT network data</a>. 
 
 For the conference version of the code, we provide the python and P4 code for the UNSW-IoT device identification use case with 16 classes. <br> The same approach for feature/model selection and encoding to P4 applies to all the use cases.
 
 For the full version of the code, we provide the code for the CICIDS-2017 intrusion detection use case with 2 classes. <br> The same approach for feature/model selection and encoding to P4 applies to all the use cases.
 
-You can access the train/test files for the examples above from this<a href="https://box.networks.imdea.org/s/xV7P5bunjxbiSh1"> Box folder</a>.
+You can access the train/test files for the examples above from this <a href="https://box.networks.imdea.org/s/xV7P5bunjxbiSh1">Box folder</a>.
 
 
 ## Citation
