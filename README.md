@@ -17,7 +17,7 @@ For full details, please consult <a href="https://dspace.networks.imdea.org/hand
 There are two folders:  
 <!-- - _Data_ : information on how to access the data  -->
 - _P4_ : the P4 code for Tofino
-- _Python_ : the jupyter notebooks for training the machine learning models, the python scripts for generating the M/A table entries from the saved trained models and the control plane code.
+- _Python_ : the jupyter notebooks for training the machine learning models, the python scripts for generating the M/A table entries from the saved trained models, and the control plane code.
 
 In each folder, there are two sub-folders; one for the conference version of Flowrest and the other for the full version with all the functionalities fully implemented.
 
