@@ -31,7 +31,7 @@ The use cases considered in the paper are:
 
 For the conference version of the code, we provide the python and P4 code for the UNSW-IoT device identification use case with 16 classes. <br> The same approach for feature/model selection and encoding to P4 applies to all the use cases.
 
-For the full version of the code, we provide the code for the CICIDS-2017 intrusion detection use case with 2 classes. <br> The same approach for feature/model selection and encoding to P4 applies to all the use cases.
+For the full version of the code, we provide the code for the UNIBS 2009 Internet Traces use case with 8 classes. <br> The same approach for feature/model selection and encoding to P4 applies to all the use cases.
 
 You can access the train/test files for the examples above from this <a href="https://box.networks.imdea.org/s/xV7P5bunjxbiSh1">Box folder</a>.
 
