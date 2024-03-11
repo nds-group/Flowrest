@@ -35,6 +35,11 @@ For the full version of the code, we provide the code for the UNIBS 2009 Interne
 
 You can access the train/test files for the examples above from this <a href="https://box.networks.imdea.org/s/xV7P5bunjxbiSh1">Box folder</a>.
 
+To reproduce any of the benchmark solutions, please refer to the respective repositories below. Any variations to the original proposals are described in the paper.
+- Mousika: https://github.com/xgr19/Mousika 
+- Soter: https://github.com/xgr19/Soter 
+- NetBeacon:https://github.com/IDP-code/NetBeacon 
+- Planter (from Henna): https://github.com/nds-group/Henna
 
 ## Citation
 If you make use of this code, kindly cite our paper:  
